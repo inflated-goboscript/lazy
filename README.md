@@ -5,6 +5,9 @@
 This is a utility library which is built for [goboscript](https://github.com/aspizu/goboscript).
 It is designed to be used with [inflator](https://github.com/faretek1/inflator).
 
+> [!NOTE]
+> lazy.gs might go against naming conventions to look nicer. e.g. %define pen_du <...>
+
 ## Credits
 
 ...
