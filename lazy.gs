@@ -1,3 +1,6 @@
+%if not _FARETEK_INCLUDE_LAZY
+%define _FARETEK_INCLUDE_LAZY
+
 %define pen_du pen_down;pen_up
 
 proc change_xy dx, dy {
@@ -7,3 +10,4 @@ proc change_xy dx, dy {
 }
 
 %define onbool(b) ontimer > 0.0000000000001 / (b)
+%endif
